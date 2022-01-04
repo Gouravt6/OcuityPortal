@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="OcuityPortal.ServiceadvisorTest">
+        <methods>
+          <include name="deleteServiceAdvisor"/>
+          <include name="baseNavigation"/>
+        </methods>
+      </class> <!-- OcuityPortal.ServiceadvisorTest -->
+      <class name="OcuityPortal.locationTest">
+        <methods>
+          <include name="addLocation"/>
+          <include name="loginTest"/>
+          <include name="baseNavigation"/>
+        </methods>
+      </class> <!-- OcuityPortal.locationTest -->
+      <class name="OcuityPortal.HomepageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="baseNavigation"/>
+        </methods>
+      </class> <!-- OcuityPortal.HomepageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
